@@ -1,0 +1,65 @@
+.margencabeceras{
+	margin-top: 1%;
+    margin-right: 5%;
+}
+
+.margenform{
+	margin-top: 10%;
+}
+
+.margenbread{
+  margin-top: 1.9%;
+}
+
+.margenbreadtext{
+	margin-left: 5%;
+}
+
+.volverarriba{
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    margin-top: -3.5%;
+}
+
+.volverarriba #volverarriba{
+    background-color: #0000b3;
+    background-image: url(../multimedia/backtop.png);
+    background-position: center center;
+        background-position-x: center;
+        background-position-y: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    height: 58px;
+    text-align: center;
+    width: 58px;
+}
+
+.bandera{
+    height: 3.5%;
+    width: 4%;
+}
+
+.estiloError {
+  color: red;
+  animation: estiloError 7s linear forwards;
+    -webkit-animation: estiloError 7s linear forwards;      
+}
+
+@keyframes estiloError {
+  0% { opacity: 0; }
+  2% { opacity: 1; }
+  98% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+  @-webkit-keyframes estiloError {
+
+  0% { opacity: 0; }
+  2% { opacity: 1; }
+  98% { opacity: 1; }
+  100% { opacity: 0; }
+
+} 

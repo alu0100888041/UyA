@@ -1,0 +1,161 @@
+img {
+    width: 100%;
+}
+
+.vuelos{
+	position: relative;
+}
+
+.hoteles{
+	position: relative;
+	margin-top: -2.5%;
+}
+
+
+.enlacevuelos{
+	position: absolute;
+	font-size: 150%;
+	top: 50%;
+    left:44.5%;
+    color:#fff;
+    padding: 5px 25px;
+    border: 1px solid #fff;
+
+}
+
+.enlacehoteles{
+	position: absolute;
+	font-size: 150%;
+	top: 42%;
+    left:43%;
+    color:#fff;
+    padding: 5px 25px;
+    border: 1px solid #fff;
+
+
+}
+
+.enlacevuho{
+	position: absolute;
+	font-size: 150%;
+	top: 58%;
+    left:42%;
+    color:#fff;
+    padding: 5px 25px;
+    border: 1px solid #fff;
+
+
+}
+
+footer{
+	margin-top: -3%;
+}
+
+.hover:hover{
+    color:#ff0000;
+    background-color:#fff;
+    text-decoration: none;
+}
+
+.volverarriba{
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+.volverarriba #volverarriba{
+    background-color: #0000b3;
+    background-image: url(../multimedia/backtop.png);
+    background-position: center center;
+        background-position-x: center;
+        background-position-y: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    height: 58px;
+    text-align: center;
+    width: 58px;
+}
+
+.color:link{
+	color:#0000b3;
+}
+
+.color:visited{
+	color:#b30000;
+}
+
+.margencabeceras{
+	margin-top: 1%;
+    margin-right: 5%;
+}
+
+.margenbread{
+  margin-top: 1.9%;
+}
+
+.margenbreadtext{
+    margin-left: 5%;
+}
+
+.bandera{
+    height: 3.5%;
+    width: 4%;
+}
+
+.footer{
+    overflow: hidden;
+}
+
+
+/*@media screen and (max-width: 1000px){
+    .hoteles{
+        margin-top: -2%;
+            overflow: hidden;
+
+    }
+}
+
+@media screen and (max-width: 700px){
+    .vuelos{
+        font-size: 10px;
+
+    }
+    .hoteles{
+        font-size: 10px;
+        margin-top: -3%;
+            overflow: hidden;
+
+    }
+    .enlacevuelos{
+        left: 40%;
+    }
+    .enlacehoteles{
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hoteles{
+        margin-top: -7%;
+    }
+
+    .footer{
+        margin-top: -5%;
+    }
+
+    .volverarriba{
+        margin-top: -11.5%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .vuelos{
+        font-size: 5px;
+    }
+        .hoteles{
+        font-size: 5px;
+    }
+}*/
